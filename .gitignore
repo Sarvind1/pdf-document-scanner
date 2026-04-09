@@ -46,21 +46,20 @@ htmlcov/
 *.swp
 *.swo
 *~
-.DS_Store
 
 # OS
-Thumbs.db
 .DS_Store
+Thumbs.db
 *.tmp
 
-# Test files and large images
+# Image and media files
+*.png
+*.jpg
+*.jpeg
 image*.png
 image*.jpg
 image*.jpeg
 test_image*
-*.png
-*.jpg
-*.jpeg
 
 # Lambda/AWS
 .aws-sam/
